@@ -27,7 +27,7 @@ of M-H sampling, resulting in the **MALA algorithm**, to eliminate biases.
 ## ```Synthetic_datasets.ipynb```
 Reproduction of the experiments on synthetic datasets
 
-Note the rate of changes in the generated points with increase in $\epsilon$ :
+Note the rate of changes in the generated points with increase in $\epsilon$ ("learning rate"):
 
 
 ![](pictures/MALA_gauss.png)
@@ -44,3 +44,8 @@ Here is an example of improvement of car with DDLS
 Before DDLS           | After DDLS     
 :-------------------------:|:-------------------------:
 ![](pictures/before_DDLS.png)  |  ![](pictures/after_DDLS.png)
+
+
+| ![](pictures/car_latent_space.gif) |
+| :----------------------------------------: |
+|      Changes in generated image throughout iterations on the vector from the latent space     |
