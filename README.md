@@ -39,7 +39,7 @@ Note the rate of changes in the generated points with increase in $\epsilon$ ("l
 ## ```Real_dataset_CIFAR10.ipynb```
 Reproduction of the experiments on the real CIFAR10 dataset
 
-Here is an example of improvement of car with DDLS
+Here is an example of improvement of car with DDLS. Note that $\epsilon$ and number of iterations greatly affect the results of the iterations (just as in synthetic dataset) - you will need to experiment with the specific values in your case.
 
 Before DDLS           | After DDLS     
 :-------------------------:|:-------------------------:
