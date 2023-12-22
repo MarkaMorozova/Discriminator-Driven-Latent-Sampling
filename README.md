@@ -16,7 +16,7 @@ Instead, authors formulate an energy-based model in the latent space and propose
 The proposed algorithm of the Discriminator Driven Latent Sampling is the following:
 
 
-![]('pictures/algo.png')
+![alt text]('pictures/algo.png')
 
 
 Note, that, according to authors, "in practice we will use a small, finite, value for $\epsilon$ in our experiments. In this case, one can add an additional layer
@@ -27,13 +27,13 @@ of M-H sampling, resulting in the **MALA algorithm**, to eliminate biases.
 ## ```Synthetic_datasets.ipynb```
 Reproduction of the experiments on synthetic datasets
 
-Note the rate of changes in the generated points with increase in $\epsilon$
+Note the rate of changes in the generated points with increase in $\epsilon$ :
 
 
-![]('pictures/MALA_gauss.png')
+![alt text]('pictures/MALA_gauss.png')
 
 
-![]('pictures/MALA_swiss.png')
+![alt text]('pictures/MALA_swiss.png')
 
 
 ## ```Real_dataset_CIFAR10.ipynb```
