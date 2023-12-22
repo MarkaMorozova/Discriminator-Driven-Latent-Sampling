@@ -15,7 +15,7 @@ Instead, authors formulate an energy-based model in the latent space and propose
 
 The proposed algorithm of the Discriminator Driven Latent Sampling is the following:
 
-[]('/pictures/algo.png')
+![]('/pictures/algo.png')
 
 Note, that, according to authors, "in practice we will use a small, finite, value for $\epsilon$ in our experiments. In this case, one can add an additional layer
 of M-H sampling, resulting in the **MALA algorithm**, to eliminate biases.
@@ -25,5 +25,17 @@ of M-H sampling, resulting in the **MALA algorithm**, to eliminate biases.
 ## ```Synthetic_datasets.ipynb```
 Reproduction of the experiments on synthetic datasets
 
+Note the rate of changes in the generated points with increase in $\epsilon$
+
+![]('/pictures/MALA_gauss.png')
+
+![]('/pictures/MALA_swiss.png')
+
 ## ```Real_dataset_CIFAR10.ipynb```
 Reproduction of the experiments on the real CIFAR10 dataset
+
+Here is an example of improvement of car with DDLS
+
+Before DDLS           | After DDLS     
+:-------------------------:|:-------------------------:
+![](pictures/before_DDLS.png)  |  ![](tables/after_DDLS.png)
