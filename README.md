@@ -27,7 +27,7 @@ of M-H sampling, resulting in the **MALA algorithm**, to eliminate biases.
 ## ```Synthetic_datasets.ipynb```
 Reproduction of the experiments on synthetic datasets
 
-Note the rate of changes in the generated points with increase in $\epsilon$ ("learning rate"):
+Note the difference in rate of changes in the generated points with increase of $\epsilon$ ("learning rate"):
 
 
 ![](pictures/MALA_gauss.png)
