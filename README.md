@@ -38,4 +38,4 @@ Here is an example of improvement of car with DDLS
 
 Before DDLS           | After DDLS     
 :-------------------------:|:-------------------------:
-![](pictures/before_DDLS.png)  |  ![](tables/after_DDLS.png)
+![](pictures/before_DDLS.png)  |  ![](pictures/after_DDLS.png)
