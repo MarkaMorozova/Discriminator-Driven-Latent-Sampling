@@ -1,5 +1,5 @@
 # Discriminator-Driven-Latent-Sampling (DDLS)
-Reproduction of the NeurIPS 2020 conference article !["Your GAN is Secretly an Energy-based Model and You Should Use Discriminator Driven Latent Sampling"](https://arxiv.org/abs/2003.06060) (Tong Che &amp; Ruixiang Zhang et al.)
+Reproduction of the NeurIPS 2020 conference article ["Your GAN is Secretly an Energy-based Model and You Should Use Discriminator Driven Latent Sampling"](https://arxiv.org/abs/2003.06060) (Tong Che &amp; Ruixiang Zhang et al.)
 
 # Idea
 According to the article, **energy-based models (EBM)** are models defined by the Boltzman distribution  which varies as $e^{E(x)}$, where $E(x)$ is the energy function.
