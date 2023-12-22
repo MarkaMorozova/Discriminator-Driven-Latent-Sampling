@@ -30,10 +30,10 @@ Reproduction of the experiments on synthetic datasets
 Note the rate of changes in the generated points with increase in $\epsilon$ :
 
 
-![alt text]('pictures/MALA_gauss.png')
+![](pictures/MALA_gauss.png)
 
 
-![alt text]('pictures/MALA_swiss.png')
+![](pictures/MALA_swiss.png)
 
 
 ## ```Real_dataset_CIFAR10.ipynb```
