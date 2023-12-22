@@ -16,7 +16,7 @@ Instead, authors formulate an energy-based model in the latent space and propose
 The proposed algorithm of the Discriminator Driven Latent Sampling is the following:
 
 
-![alt text]('pictures/algo.png')
+![](pictures/algo.png)
 
 
 Note, that, according to authors, "in practice we will use a small, finite, value for $\epsilon$ in our experiments. In this case, one can add an additional layer
